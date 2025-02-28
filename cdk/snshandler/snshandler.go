@@ -1,9 +1,9 @@
 package snshandler
 
 import (
+	"event-core/cdk/dashboard"
+	"event-core/cdkstandards/sqs"
 	"fmt"
-	"sqstest/cdk/dashboard"
-	"sqstest/cdkstandards/sqs"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awscloudwatch"

@@ -7,11 +7,11 @@ package main
 // https://dev.to/chrisarmstrong/sqs-queues-as-an-eventbridge-rule-target-3d2g
 
 import (
-	"sqstest/cdk/dashboard"
-	"sqstest/cdk/eventhandler"
-	"sqstest/cdk/gatewayhandler"
-	"sqstest/cdk/stackprops"
-	"sqstest/service/testreception"
+	"event-core/cdk/dashboard"
+	"event-core/cdk/eventhandler"
+	"event-core/cdk/gatewayhandler"
+	"event-core/cdk/stackprops"
+	"event-core/service/testreception"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsdynamodb"

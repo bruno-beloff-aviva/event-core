@@ -2,8 +2,8 @@ package testreception
 
 import (
 	"encoding/json"
+	"event-core/service/testmessage"
 	"fmt"
-	"sqstest/service/testmessage"
 	"testing"
 	"time"
 

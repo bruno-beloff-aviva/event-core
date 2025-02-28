@@ -1,9 +1,9 @@
 package testreception
 
 import (
+	"event-core/manager/dbmanager"
+	"event-core/service/testmessage"
 	"fmt"
-	"sqstest/manager/dbmanager"
-	"sqstest/service/testmessage"
 	"time"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsdynamodb"
