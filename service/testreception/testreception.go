@@ -1,10 +1,11 @@
 package testreception
 
 import (
-	"event-core/manager/dbmanager"
-	"event-core/service/testmessage"
 	"fmt"
 	"time"
+
+	"github.com/bruno-beloff-aviva/event-core/manager/dbmanager"
+	"github.com/bruno-beloff-aviva/event-core/service/testmessage"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsdynamodb"
 )

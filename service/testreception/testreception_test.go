@@ -2,10 +2,11 @@ package testreception
 
 import (
 	"encoding/json"
-	"event-core/service/testmessage"
 	"fmt"
 	"testing"
 	"time"
+
+	"github.com/bruno-beloff-aviva/event-core/service/testmessage"
 
 	"github.com/stretchr/testify/assert"
 )

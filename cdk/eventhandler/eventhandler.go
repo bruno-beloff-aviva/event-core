@@ -1,9 +1,10 @@
 package eventhandler
 
 import (
-	"event-core/cdk/dashboard"
-	"event-core/cdkstandards/sqs"
 	"fmt"
+
+	"github.com/bruno-beloff-aviva/event-core/cdk/dashboard"
+	"github.com/bruno-beloff-aviva/event-core/cdkstandards/sqs"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awscloudwatch"

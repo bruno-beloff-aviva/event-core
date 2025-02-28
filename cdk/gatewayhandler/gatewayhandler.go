@@ -8,9 +8,10 @@ package gatewayhandler
 // WARNING: switching from lambda to lambda alias required that the stack was destroyed and re-created
 
 import (
-	"event-core/cdk/dashboard"
-	"event-core/cdk/stackprops"
 	"fmt"
+
+	"github.com/bruno-beloff-aviva/event-core/cdk/dashboard"
+	"github.com/bruno-beloff-aviva/event-core/cdk/stackprops"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsapigateway"
